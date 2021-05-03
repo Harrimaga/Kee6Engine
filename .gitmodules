@@ -1,0 +1,3 @@
+[submodule "Kee6Engine/vendor/spdlog"]
+	path = Kee6Engine/vendor/spdlog
+	url = https://github.com/gabime/spdlog
