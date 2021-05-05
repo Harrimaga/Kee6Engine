@@ -26,13 +26,14 @@ project "Kee6Engine"
 
 	includedirs
 	{
-		"Kee6Engine/vendor/spdlog/include"
+		"Kee6Engine/vendor/spdlog/include",
+		"Kee6Engine/src"
 	}
 
 	filter "system:windows"
 		cppdialect "c++17"
 		staticruntime "On"
-		systemversion "10.0"
+		systemversion "latest"
 
 		defines 
 		{
@@ -85,7 +86,7 @@ project "Game"
 	filter "system:windows"
 		cppdialect "c++17"
 		staticruntime "On"
-		systemversion "10.0"
+		systemversion "latest"
 
 		defines 
 		{
