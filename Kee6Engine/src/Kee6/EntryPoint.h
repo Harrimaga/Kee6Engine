@@ -1,5 +1,4 @@
 #pragma once
-#include "Application.h"
 
 #ifdef K6_PLATFORM_WINDOWS
 

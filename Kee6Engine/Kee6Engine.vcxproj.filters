@@ -4,6 +4,9 @@
     <Filter Include="Kee6">
       <UniqueIdentifier>{D0EA877C-BC21-890D-650E-6F105124050F}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Kee6\Events">
+      <UniqueIdentifier>{B44C2F2C-2002-A821-A9F6-A1F815AB9E25}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Kee6.h" />
@@ -16,7 +19,25 @@
     <ClInclude Include="src\Kee6\EntryPoint.h">
       <Filter>Kee6</Filter>
     </ClInclude>
+    <ClInclude Include="src\Kee6\Events\ApplicationEvent.h">
+      <Filter>Kee6\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kee6\Events\Event.h">
+      <Filter>Kee6\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kee6\Events\KeyEvent.h">
+      <Filter>Kee6\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kee6\Events\MouseEvent.h">
+      <Filter>Kee6\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kee6\KeyCodes.h">
+      <Filter>Kee6</Filter>
+    </ClInclude>
     <ClInclude Include="src\Kee6\Logger.h">
+      <Filter>Kee6</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kee6\MouseCodes.h">
       <Filter>Kee6</Filter>
     </ClInclude>
   </ItemGroup>

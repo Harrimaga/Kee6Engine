@@ -147,7 +147,13 @@
     <ClInclude Include="src\Kee6\Application.h" />
     <ClInclude Include="src\Kee6\Core.h" />
     <ClInclude Include="src\Kee6\EntryPoint.h" />
+    <ClInclude Include="src\Kee6\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\Kee6\Events\Event.h" />
+    <ClInclude Include="src\Kee6\Events\KeyEvent.h" />
+    <ClInclude Include="src\Kee6\Events\MouseEvent.h" />
+    <ClInclude Include="src\Kee6\KeyCodes.h" />
     <ClInclude Include="src\Kee6\Logger.h" />
+    <ClInclude Include="src\Kee6\MouseCodes.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Kee6\Application.cpp" />
